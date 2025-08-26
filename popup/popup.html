@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>NoBG Downloader</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="container">
+    <h2>NoBG Downloader</h2>
+
+    <div id="firstRun" class="info">
+        <p>Welcome! To download an image without background:</p>
+        <ol>
+            <li>Enter your <strong>API key from remove.bg</strong>.</li>
+            <li>Open the site with the image.</li>
+            <li><strong>Right-click</strong> on the desired image (not on the Google search block).</li>
+            <li>Select "Download image without background".</li>
+        </ol>
+        <button id="gotIt">Alright</button>
+    </div>
+
+    <div id="apiSetup" class="setup" style="display:none;">
+        <label for="apiKey">API Key:</label>
+        <input id="apiKey" type="password" placeholder="Введите API ключ">
+        <button id="saveBtn">Save</button>
+        <p id="status"></p>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

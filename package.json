@@ -1,0 +1,19 @@
+{
+  "name": "nogb",
+  "version": "1.0.0",
+  "description": "NoBg Downloader",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zikrullo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
