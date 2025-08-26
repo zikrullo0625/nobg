@@ -17,7 +17,7 @@ Perfect for designers, content creators, and anyone who wants to process images 
 1. Clone or download this repository.  
 2. Open Chrome and navigate to `chrome://extensions/`.  
 3. Enable **Developer mode** (toggle in the top right).  
-4. Click **Load unpacked** and select the folder with the built extension (`dist/bex-chrome--prod` or your build output).  
+4. Click **Load unpacked** and select the folder of this project.  
 5. Click the extension icon and enter your **Remove.bg API key**.
 
 ## Usage
